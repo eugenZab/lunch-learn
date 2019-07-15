@@ -2,7 +2,7 @@ var Sequelize = require('sequelize');
 var username = 'sa';
 var password = 'DockerCon!!!';
 var host = 'bb-db';
-var dbName = 'BulletinBoard';
+var dbName = 'LunchAndLearn';
 
 var sequelize = new Sequelize(dbName, username, password, {
     dialect: 'mssql',

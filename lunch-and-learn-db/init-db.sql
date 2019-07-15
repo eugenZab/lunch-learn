@@ -1,7 +1,7 @@
-CREATE DATABASE BulletinBoard;
+CREATE DATABASE LunchAndLearn;
 GO
 
-USE BulletinBoard;
+USE LunchAndLearn;
 
 CREATE TABLE Events (
   Id INT IDENTITY(1,1) NOT NULL PRIMARY KEY,
