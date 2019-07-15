@@ -8,13 +8,13 @@ CREATE TABLE Events (
   Title NVARCHAR(50),
   Detail NVARCHAR(200),
   [Date] DATETIMEOFFSET,
-  CreatedAt DATETIMEOFFSET NOT NULL, 
+  CreatedAt DATETIMEOFFSET NOT NULL,
   UpdatedAt DATETIMEOFFSET NOT NULL
 );
 
 INSERT INTO Events (Title, Detail, [Date], CreatedAt, UpdatedAt) VALUES
-(N'Docker for Beginners', N'Introduction to Docker using Node.js', '2017-11-21', GETDATE(), GETDATE()),
-(N'Advanced Orchestration', N'Deep dive into Docker Swarm', '2017-12-25', GETDATE(), GETDATE()),
-(N'Docker on Windows', N'From 101 to production', '2018-01-01', GETDATE(), GETDATE());
+(N'AI', N'Artificial intelligence demo', '2019-06-12', GETDATE(), GETDATE()),
+(N'GitLab', N'GitLab CICD review', '2019-06-19', GETDATE(), GETDATE()),
+(N'Listeners', N'Listeners in Java demo', '2019-07-10', GETDATE(), GETDATE());
 
 SELECT * FROM BulletinBoard.dbo.Events;
