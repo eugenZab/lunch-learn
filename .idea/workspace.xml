@@ -3,6 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="b2fcce5b-fa40-4a01-937b-f64b65abfc32" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lunch-and-learn-app/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/lunch-and-learn-app/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lunch-and-learn-app/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/lunch-and-learn-app/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lunch-and-learn-app/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lunch-and-learn-app/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/lunch-and-learn-app/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lunch-and-learn-app/backend/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/lunch-and-learn-app/backend/api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lunch-and-learn-app/backend/events.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lunch-and-learn-app/backend/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/lunch-and-learn-app/backend/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lunch-and-learn-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/lunch-and-learn-app/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lunch-and-learn-app/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/lunch-and-learn-app/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lunch-and-learn-app/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/lunch-and-learn-app/server.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,10 +26,69 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+        <entry file="file://$PROJECT_DIR$/lunch-and-learn-app/backend/api.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="37" lean-forward="true" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lunch-and-learn-app/backend/db.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lunch-and-learn-app/backend/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="2" lean-forward="true" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lunch-and-learn-app/Dockerfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lunch-and-learn-app/app.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lunch-and-learn-app/.gitignore">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LICENSE">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2366" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lunch-and-learn-app/readme.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lunch-and-learn-app/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
-              <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+              <caret line="18" column="4" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -33,6 +102,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/lunch-and-learn-app/Dockerfile" />
+        <option value="$PROJECT_DIR$/lunch-and-learn-app/package.json" />
+        <option value="$PROJECT_DIR$/lunch-and-learn-app/backend/index.js" />
       </list>
     </option>
   </component>
@@ -67,6 +139,17 @@
               <item name="lunch-learn" type="b2602c69:ProjectViewProjectNode" />
               <item name="lunch-learn" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="lunch-learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lunch-learn" type="462c0819:PsiDirectoryNode" />
+              <item name="lunch-and-learn-app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lunch-learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lunch-learn" type="462c0819:PsiDirectoryNode" />
+              <item name="lunch-and-learn-app" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -78,6 +161,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -101,7 +185,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1563171488521</updated>
-      <workItem from="1563171489705" duration="1307000" />
+      <workItem from="1563171489705" duration="2086000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1563171528411</created>
@@ -124,11 +208,25 @@
       <option name="project" value="LOCAL" />
       <updated>1563172517146</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="first commit">
+      <created>1563172852513</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1563172852513</updated>
+    </task>
+    <task id="LOCAL-00005" summary="first commit">
+      <created>1563172983987</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1563172983987</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1307000" />
+    <option name="totallyTimeSpent" value="2086000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -170,8 +268,67 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/docker-compose.yml">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../lunch-and-learn/node-lunch-and-learn-2/lunch-and-learn-app/backend/events.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lunch-and-learn-app/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lunch-and-learn-app/LICENSE">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lunch-and-learn-app/package.json">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <caret line="18" column="4" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LICENSE">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2366" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lunch-and-learn-app/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lunch-and-learn-app/app.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lunch-and-learn-app/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lunch-and-learn-app/backend/db.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lunch-and-learn-app/backend/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="2" lean-forward="true" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lunch-and-learn-app/backend/events.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lunch-and-learn-app/backend/api.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="37" lean-forward="true" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
         </state>
       </provider>
     </entry>
