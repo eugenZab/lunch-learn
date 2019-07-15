@@ -3,16 +3,16 @@ version: '3.3'
 services:
 
   bb-db:
-    image: ${dockerId:-dockersamples}/lunch-and-learn-db:v2
+    image: ${dockerId}/lunch-and-learn-db:v2
     build:
       context: ./lunch-and-learn-db
     networks:
       - bb-net
 
   bb-app:
-    image: ${dockerId}/bulletin-board-app:v2
+    image: ${dockerId}/lunch-and-learn-app:v2
     build:
-      context: ./bulletin-board-app
+      context: ./lunch-and-learn-app
     ports:
       - "8080:8080"
     depends_on:
