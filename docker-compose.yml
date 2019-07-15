@@ -19,36 +19,5 @@ services:
     networks:
       - bb-net
 
-  bb-proxy:
-    image: ${dockerId:-dockersamples}/lunch-and-learn-proxy:v5
-    build:
-      context: ./lunch-and-learn-proxy
-    ports:
-      - "80:80"
-    depends_on:
-      - bb-app
-    networks:
-      - bb-net
-
-  bb-metrics:
-    image: ${dockerId:-dockersamples}/lunch-and-learn-metrics:v5
-    build:
-      context: ./lunch-and-learn-metrics
-    depends_on:
-      - bb-app
-    networks:
-      - bb-net
-
-  bb-dashboard:
-    image: ${dockerId:-dockersamples}/lunch-and-learn-dashboard:v5
-    build:
-      context: ./lunch-and-learn-dashboard
-    ports:
-      - "3000:3000"
-    depends_on:
-      - bb-metrics
-    networks:
-      - bb-net
-
 networks:
   bb-net:
