@@ -10,9 +10,11 @@ services:
       - bb-net
 
   bb-app:
-    image: ${dockerId:-dockersamples}/lunch-and-learn-app:v2
+    image: ${dockerId}/bulletin-board-app:v2
     build:
-      context: ./lunch-and-learn-app
+      context: ./bulletin-board-app
+    ports:
+      - "8080:8080"
     depends_on:
       - bb-db
     restart: on-failure
