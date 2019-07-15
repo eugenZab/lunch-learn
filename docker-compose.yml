@@ -3,14 +3,14 @@ version: '3.3'
 services:
 
   bb-db:
-    image: ${dockerId:-dockersamples}/lunch-and-learn-db:v5
+    image: ${dockerId:-dockersamples}/lunch-and-learn-db:v2
     build:
       context: ./lunch-and-learn-db
     networks:
       - bb-net
 
   bb-app:
-    image: ${dockerId:-dockersamples}/lunch-and-learn-app:v5
+    image: ${dockerId:-dockersamples}/lunch-and-learn-app:v2
     build:
       context: ./lunch-and-learn-app
     depends_on:
