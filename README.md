@@ -1,6 +1,6 @@
 ## Node.js app with SQL Server on Docker
-Use this service to practise or install Docker on your machine.
-https://labs.play-with-docker.com
+Use this service to practise https://labs.play-with-docker.com or install Docker on your machine.
+
 
 ## Prerequisites:
 
