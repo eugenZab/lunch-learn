@@ -17,4 +17,4 @@ INSERT INTO Events (Title, Detail, [Date], CreatedAt, UpdatedAt) VALUES
 (N'GitLab', N'GitLab CICD review', '2019-06-19', GETDATE(), GETDATE()),
 (N'Listeners', N'Listeners in Java demo', '2019-07-10', GETDATE(), GETDATE());
 
-SELECT * FROM BulletinBoard.dbo.Events;
+SELECT * FROM LunchAndLearn.dbo.Events;
