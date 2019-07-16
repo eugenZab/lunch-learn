@@ -8,6 +8,7 @@ You will need:
 
 - a copy of the application source code
 - a Docker ID
+
 Clone the source code from GitHub:
 
 ```git 
